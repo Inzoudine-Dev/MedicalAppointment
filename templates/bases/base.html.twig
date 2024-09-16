@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr" >
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="icon" href="{{ asset('images/logo_jeuxVideos.png') }}">
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+
+    </head>
+
+    <body>
+
+        <header>
+            {% include 'views/users/header/usersHeader.html.twig' %}
+        </header>
+
+        <main>
+            {% block body %}{% endblock %}
+        </main>
+
+        <footer>
+            {% include 'views/users/footer/usersFooter.html.twig' %}
+        </footer>
+
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+
+    </body>
+</html>
