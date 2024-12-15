@@ -11,7 +11,7 @@
 import './styles/users/usersHeader.css';
 
 /*imports javascripts*/
-//import './javascripts/scriptTest.js';
+import './javascripts/users/scriptHeader.js';
 
 
 console.log('This log comes from assets/app.js - welcome to AssetMapper! 🎉');

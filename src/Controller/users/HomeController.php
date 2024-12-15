@@ -3,11 +3,21 @@
 namespace App\Controller\users;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 
 class HomeController extends AbstractController
 {
+
+
+    #[Route('/', name: 'app_index')]
+    public function indexRedirect(): RedirectResponse
+    {
+        return $this->redirectToRoute('app_home');
+    }
+
+
     #[Route('/home', name: 'app_home')]
     public function index(): Response
     {
@@ -15,4 +25,6 @@ class HomeController extends AbstractController
             'controller_name' => 'HomeController',
         ]);
     }
+
+
 }
