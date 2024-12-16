@@ -1,0 +1,13 @@
+div.footer_content_class{
+    display: flex;
+    justify-content: space-around;
+}
+
+p.text_footer_class{
+    text-align: center;
+}
+
+.link_footer_class{
+    text-decoration: none;
+    color: darkorange;
+}

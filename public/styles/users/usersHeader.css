@@ -48,14 +48,7 @@ a.link_rubrique,a.link_connexion_inscription_class{
     justify-content: space-between;
 }
 
-header{
-    border: 1px lightgrey solid;
-    padding: 5px;
-}
 
-body{
-    margin: 0;
-}
 
 .icone_menue_header_class{
     display: none;
@@ -72,7 +65,7 @@ body{
 
 /*responsive header*/
 
-@media screen and (max-width: 692px) {
+@media screen and (max-width: 721px) {
 
     ul.menue_header_class{
         display:flex;

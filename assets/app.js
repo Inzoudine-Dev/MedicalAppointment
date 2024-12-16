@@ -8,10 +8,13 @@
 
 /*imports css*/
 //import './styles/app.css';
-import './styles/users/usersHeader.css';
+import '../public/styles/users/usersHeader.css';
+import '../public/styles/users/usersFooter.css';
+import '../public/styles/users/usersBase.css';
+import '../public/styles/users/index.css';
 
 /*imports javascripts*/
-import './javascripts/users/scriptHeader.js';
+import '../public/javascripts/users/scriptHeader.js';
 
 
 console.log('This log comes from assets/app.js - welcome to AssetMapper! 🎉');
