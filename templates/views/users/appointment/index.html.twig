@@ -1,0 +1,46 @@
+{% extends 'bases/base.html.twig' %}
+
+{% block title %}Appointment{% endblock %}
+
+{% block body %}
+
+        <section class="appoinment_section_class">
+
+            <table class="calendar-table">
+                <thead>
+                <tr>
+                    <th>Lundi</th>
+                    <th>Mardi</th>
+                    <th>Mercredi</th>
+                    <th>Jeudi</th>
+                    <th>Vendredi</th>
+                    <th>Samedi</th>
+                    <th>Dimanche</th>
+                </tr>
+                </thead>
+
+                <tbody>
+
+               {% for i in 1..7 %}
+
+                    <tr>
+
+                        <td>col1 </td>
+                        <td>col2</td>
+                        <td>col3</td>
+                        <td>col4</td>
+                        <td>col5</td>
+                        <td>col6</td>
+                        <td>col7</td>
+
+                    </tr>
+
+                {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+{% endblock %}
