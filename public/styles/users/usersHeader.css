@@ -65,7 +65,7 @@ a.link_rubrique,a.link_connexion_inscription_class{
 
 /*responsive header*/
 
-@media screen and (max-width: 721px) {
+@media screen and (max-width: 738px) {
 
     ul.menue_header_class{
         display:flex;
@@ -98,7 +98,7 @@ a.link_rubrique,a.link_connexion_inscription_class{
 }
 
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 379px) {
 
     .p_connexion_inscriptin_class{
         display: none;
